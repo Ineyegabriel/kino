@@ -1,0 +1,34 @@
+{
+  "homepage": {
+    "headerTitle": "Search our extensive collection for something that might pique your interest.",
+    "searchBarPlaceHolder": "try something like 'Jack Reacher'"
+  },
+  "routes": {
+    "home": "Home",
+    "history": "History",
+    "browse": "Browse",
+    "movies": "movies"
+  },
+  "series": "Series",
+  "searchResult": "Search result for {{Title}}",
+
+  "error": {
+    "movieNotFound": "We are unable to locate this title right now."
+  },
+  "moviedetailspage": {
+    "staring": "Staring",
+    "directors": "Directors",
+    "runtime": "Runtime",
+    "boxOfficeEarnings": "Box Office Earnings",
+    "dvd": "DVD",
+    "country": "Country",
+    "language": "Language",
+    "rated": "Rated",
+    "writers": "Writer(s)",
+    "addToList": "Add to list",
+    "createList": "Create list",
+    "saveMovieTo": "Save movie to ...",
+    "plot": "Plot"
+  },
+  "backToHome": "Back to home"
+}

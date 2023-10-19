@@ -1,0 +1,18 @@
+:root {
+  font-size: 1em;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, rgb(22, 34, 42), rgb(58, 96, 115));
+}
+
+* {
+  font-family: 'Source Sans Pro', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
