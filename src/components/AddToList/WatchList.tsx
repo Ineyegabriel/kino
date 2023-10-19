@@ -6,14 +6,13 @@ import FormControl from '@mui/material/FormControl';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { WatchList } from '@/stores/watchListStore';
 import { WatchListData } from '@/types/movies';
 import { useParams } from 'react-router-dom';
 import { processLocalStateData } from './utils';
 import { useTranslation } from 'react-i18next';
 
 type WatchListProps = {
-  watchListRecord: WatchList;
+  watchListRecord: WatchListData;
   kinoWatchList: any;
   setKinoWatchList: any;
   title: string;
