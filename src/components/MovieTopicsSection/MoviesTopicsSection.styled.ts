@@ -20,6 +20,7 @@ export const LeftSideContainer = styled.div`
   flex-direction: column;
   gap: ${StaticSpacing.MD};
   flex-wrap: wrap;
+  max-width: 385px;
 `;
 
 export const DirectorsContainer = styled.div`
@@ -49,10 +50,12 @@ export const ScoreList = styled.ul`
   align-items: center;
   padding: 3rem;
   flex-wrap: wrap;
+  justify-content: center;
   li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
     span {
       &:first-child {
         font-size: xx-large;

@@ -1,7 +1,7 @@
 export enum Colors {
   White = '#FFFFFF',
   LightBlack1 = '#202124',
-  LightBlack2 = '#2c2f3963',
+  LightBlack2 = '#797e8e91',
   Transparent = 'transparent',
   Primary600 = '#001699',
   Primary500 = '#0000FF',

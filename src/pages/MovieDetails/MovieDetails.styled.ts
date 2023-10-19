@@ -7,7 +7,7 @@ import { IconButton } from '@mui/material';
 export const BackButton = styled(IconButton)`
   position: absolute;
   left: 16px;
-  top: 16px;
+  top: 55px;
   color: ${Colors.White};
   display: flex;
   gap: ${StaticSpacing.XS};

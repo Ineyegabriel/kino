@@ -14,7 +14,7 @@ type AccoladesProps = {
 };
 
 const AccoladesCard = styled(SectionCard)`
-  min-width: 348px;
+  width: 348px;
 `;
 
 const Accolades: FunctionComponent<AccoladesProps> = ({

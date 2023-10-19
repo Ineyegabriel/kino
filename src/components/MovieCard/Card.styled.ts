@@ -12,7 +12,7 @@ export const MovieCardItem = styled.article`
   cursor: pointer;
   &:hover {
     background-color: ${Colors.LightBlack2};
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
   }
   a {
     text-decoration: none;

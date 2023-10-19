@@ -19,9 +19,7 @@ const MoviesTopicsSection: FunctionComponent = observer(() => {
           <DirectorNWriters Director={Director} Writer={Writer} />
           <ActorsList Actors={Actors} />
         </DirectorsContainer>
-        <div>
-          <MovieScores MovieScores={Ratings} />
-        </div>
+        <MovieScores MovieScores={Ratings} />
       </LeftSideContainer>
       <div>
         <Accolades
